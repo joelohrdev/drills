@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold mb-5">Back Hands</h1>
+    <h1 class="text-3xl font-bold mb-5">Slowing the ball down with feet</h1>
     <ul role="list" class="divide-y divide-gray-200">
       <li v-for="drill in drills" :key="drill.id" class="py-4 flex">
         <div class="ml-3">
@@ -15,18 +15,18 @@
 const drills = [
   {
     id: 1,
-    name: 'Swivel Backhands',
-    link: 'https://www.instagram.com/p/BY3NBnNnOxx/?igshid=gpl199n205tl',
+    name: 'Fielding Footwork Reps Deep Angle',
+    link: 'https://www.instagram.com/p/B_g2a8QnLMB/?igshid=1a9hjspfdb7k9',
   },
   {
     id: 2,
-    name: 'Rake Thru Backhands',
-    link: 'https://www.instagram.com/p/BTx382YhQm5/?igshid=4pw5vr4x86f5',
+    name: 'Hard Hit Reps Deep Angle',
+    link: 'https://www.instagram.com/p/B79fpU3l-xP/?igshid=5op3dlj1xf4t',
   },
   {
     id: 3,
-    name: 'Advanced backhand short hops',
-    link: 'https://www.instagram.com/p/B6jqnjuA27q/?igshid=e2yxt5wj8x8a',
+    name: 'Punch Step Footwork',
+    link: 'https://www.instagram.com/p/B6yS0ZygAYa/?igshid=1uo498f2ziz6t',
   }
 ]
 

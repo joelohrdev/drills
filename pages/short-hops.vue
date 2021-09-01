@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-5xl font-bold mb-5">Short Hops</h1>
+    <h1 class="text-3xl font-bold mb-5">Short Hops</h1>
     <ul role="list" class="divide-y divide-gray-200">
       <li v-for="drill in drills" :key="drill.id" class="py-4 flex">
         <div class="ml-3">
