@@ -4,7 +4,7 @@
     <ul role="list" class="divide-y divide-gray-200">
       <li v-for="drill in drills" :key="drill.id" class="py-4 flex">
         <div class="ml-3">
-          <a :href="[drill.link]" target="_blank" class="text-sm font-medium text-gray-900 hover:text-pink-500 transition">{{ drill.name }}</a>
+          <a :href="[drill.link]" rel="noopener" target="_blank" class="text-sm font-medium text-gray-900 hover:text-pink-500 transition">{{ drill.name }}</a>
         </div>
       </li>
     </ul>
