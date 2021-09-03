@@ -9,6 +9,12 @@
   </div>
 </template>
 
+<style>
+  .nuxt-link-exact-active {
+    background-color: #D1D5DB;
+  }
+</style>
+
 <script>
   const categories = [
     {
